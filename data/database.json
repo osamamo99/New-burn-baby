@@ -1,0 +1,322 @@
+{
+  "owner": {
+    "passwordHash": "802c375a27a0098e5e6245c757bbbc9d248f8bb1f260700fc3eb3084953583159112f4e6869685f66ff96f317722e9bd258c93d9df88734032ec261336f462fb",
+    "salt": "8bae0dab832579c1c5ca2411bbfab727",
+    "ownerName": "Baby Ayaan Walidain",
+    "ownerEmail": "osamakhan102020@gmail.com",
+    "isDefaultPassword": true
+  },
+  "settings": {
+    "babyName": "Baby",
+    "birthDate": "2026-10-06",
+    "birthTime": "09:45 pM",
+    "birthWeight": "3.4 kg",
+    "birthLength": "51 cm",
+    "parentsNames": "Muhammad waqas",
+    "welcomeTitle": "Hamari Duniya Mein Khush Aamdeed, Pyare Baby!",
+    "welcomeMessage": "Alhamdulillah! Hamari zindagi mein ek nanhi si jaan ki amad hui hai. Is choti si muskurahat ne hamari duniya ko khushiyon, mohabbat aur umeed ke naye rangon se bhar diya hai. Allah hamare pyare baby ko sehat, khushiyan, lambi zindagi aur hamesha apni hifazat mein rakhe. Ameen.",
+    "theme": "cream",
+    "heroImageUrl": "",
+    "heroImagePlaceholderType": "bear",
+    "showAge": true,
+    "showBirthDetails": true,
+    "showBlessings": true,
+    "showTimeline": true,
+    "showCountdown": true,
+    "allowVisitorDownloads": true,
+    "ambientMusicEnabled": true,
+    "ambientTrack": "soft-lullaby",
+    "updatedAt": "2026-10-15T18:22:16.707Z"
+  },
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Pehli Tasveer",
+      "slug": "pehli-tasveer",
+      "iconName": "Camera",
+      "orderIndex": 1
+    },
+    {
+      "id": "cat-2",
+      "name": "Hamari Nanhi Jaan",
+      "slug": "hamari-nanhi-jaan",
+      "iconName": "Heart",
+      "orderIndex": 2
+    },
+    {
+      "id": "cat-3",
+      "name": "Pyari Si Muskurahat",
+      "slug": "pyari-si-muskurahat",
+      "iconName": "Smile",
+      "orderIndex": 3
+    },
+    {
+      "id": "cat-4",
+      "name": "Neend Ke Haseen Lamhe",
+      "slug": "neend-ke-haseen-lamhe",
+      "iconName": "Moon",
+      "orderIndex": 4
+    },
+    {
+      "id": "cat-5",
+      "name": "Baby Ki Pehli Eid",
+      "slug": "baby-ki-pehli-eid",
+      "iconName": "Sparkles",
+      "orderIndex": 5
+    },
+    {
+      "id": "cat-6",
+      "name": "Pehli Muskurahat",
+      "slug": "pehli-muskurahat",
+      "iconName": "Sun",
+      "orderIndex": 6
+    },
+    {
+      "id": "cat-7",
+      "name": "Pehla Qadam",
+      "slug": "pehla-qadam",
+      "iconName": "Footprints",
+      "orderIndex": 7
+    },
+    {
+      "id": "cat-8",
+      "name": "Birthday Memories",
+      "slug": "birthday-memories",
+      "iconName": "Cake",
+      "orderIndex": 8
+    },
+    {
+      "id": "cat-9",
+      "name": "Family Ke Sath",
+      "slug": "family-ke-sath",
+      "iconName": "Users",
+      "orderIndex": 9
+    },
+    {
+      "id": "cat-10",
+      "name": "Rozana Ki Pyari Yaadein",
+      "slug": "rozana-ki-pyari-yaadein",
+      "iconName": "Calendar",
+      "orderIndex": 10
+    },
+    {
+      "id": "cat-11",
+      "name": "Special Moments",
+      "slug": "special-moments",
+      "iconName": "Star",
+      "orderIndex": 11
+    }
+  ],
+  "memories": [
+    {
+      "id": "mem-1792091081305",
+      "title": "Meri Jaan Ka Pehla Muskurata Din",
+      "caption": "Mera pyara baby subah uth kar bohat meethi muskurahat de raha tha. Allah nazar-e-bad se bachaye. Ameen.",
+      "alternativeCaptions": [],
+      "imageUrl": "/sample-art/smiling-baby.svg",
+      "thumbnailUrl": "/sample-art/smiling-baby.svg",
+      "category": "Pyari Si Muskurahat",
+      "tags": [
+        "muskurahat",
+        "dua",
+        "meri-jaan"
+      ],
+      "memoryDate": "2026-10-15",
+      "uploadDate": "2026-10-15T19:04:41.305Z",
+      "status": "published",
+      "isFavorite": true,
+      "orderIndex": 6,
+      "ownerNotes": "",
+      "visualDetailsObserved": ""
+    },
+    {
+      "id": "mem-1792088386288",
+      "title": "First image",
+      "caption": "First image",
+      "alternativeCaptions": [],
+      "imageUrl": "/uploads/baby-1792088385830-2bc83b55eff064fb992b37a6b99c0b32.jpg",
+      "thumbnailUrl": "/uploads/baby-1792088385830-2bc83b55eff064fb992b37a6b99c0b32.jpg",
+      "category": "Pehli Tasveer",
+      "tags": [
+        "nanhi-jaan",
+        "baby-memories"
+      ],
+      "memoryDate": "2026-10-06",
+      "uploadDate": "2026-10-15T18:19:46.288Z",
+      "status": "published",
+      "isFavorite": false,
+      "orderIndex": 5,
+      "ownerNotes": "",
+      "visualDetailsObserved": ""
+    },
+    {
+      "id": "mem-1",
+      "title": "Hamari Zindagi Ka Sab Se Khoobsurat Lamha",
+      "caption": "Is nanhi si jaan ki masoom neend dekh kar dil ko ajeeb sa sukoon milta hai. Allah meri pyari si jaan ko hamesha apni hifazat mein rakhe aur iski zindagi khushiyon se bhar de. Ameen.",
+      "alternativeCaptions": [
+        {
+          "style": "Dua",
+          "text": "Allah is nanhi si jaan ko har buri nazar se mehfooz farmaye aur hamesha khush-o-khurram rakhe. Ameen."
+        },
+        {
+          "style": "Poetic",
+          "text": "Choti si hatheliyon mein sari kainaat ka noor simat aya hai."
+        },
+        {
+          "style": "Cute",
+          "text": "Neend ki pyari si pariyon ke des mein khoya hamara chota sa shehzada."
+        }
+      ],
+      "imageUrl": "/sample-art/sleeping-baby.svg",
+      "category": "Neend Ke Haseen Lamhe",
+      "tags": [
+        "neend",
+        "masoomiyat",
+        "sukoon",
+        "pyari-jaan"
+      ],
+      "memoryDate": "2026-08-16",
+      "uploadDate": "2026-08-16T12:00:00.000Z",
+      "status": "published",
+      "isFavorite": true,
+      "orderIndex": 1,
+      "visualDetailsObserved": "Nanhe hath chehre ke qareeb, narm cream blanket mein lipta baby aaram se so raha hai."
+    },
+    {
+      "id": "mem-2",
+      "title": "Ek Muskurahat, Hazaron Khushiyan",
+      "caption": "Is pyari si muskurahat mein hamari sari duniya basi hui hai. Tumhari choti si hansi hamare har din ko khaas bana deti hai. Hamesha yunhi muskurate rehna, meri jaan.",
+      "alternativeCaptions": [
+        {
+          "style": "Emotional",
+          "text": "Jab yeh choti si ankhien muskurati hain toh sara gham bhool jata hai."
+        },
+        {
+          "style": "Cute",
+          "text": "Doodh peete peete ek shararti si muskurahat!"
+        },
+        {
+          "style": "Dua",
+          "text": "Rab kare yeh pyari si hansi hamesha tere labon par sajji rahe. Ameen."
+        }
+      ],
+      "imageUrl": "/sample-art/smiling-baby.svg",
+      "category": "Pyari Si Muskurahat",
+      "tags": [
+        "muskurahat",
+        "khushiyan",
+        "choti-hansi",
+        "dil-ka-tukra"
+      ],
+      "memoryDate": "2026-08-25",
+      "uploadDate": "2026-08-25T14:30:00.000Z",
+      "status": "published",
+      "isFavorite": true,
+      "orderIndex": 2,
+      "visualDetailsObserved": "Baby ke labon par halki si gulabi muskurahat aur chamakti hui masoom ankhien."
+    },
+    {
+      "id": "mem-3",
+      "title": "Hamari Duniya Ka Sab Se Pyara Sitara",
+      "caption": "Choti si dress, masoom sa chehra aur bepanah pyar. Hamari zindagi ka yeh khoobsurat tohfa har lamhe ko yaadgar bana raha hai.",
+      "alternativeCaptions": [
+        {
+          "style": "Poetic",
+          "text": "Aasman se utra ek noorani sitara jo hamare ghar ka chiragh ban gaya."
+        },
+        {
+          "style": "Family",
+          "text": "Maa aur Baap ke dil ka qaraar, hamara pyara sa bacha."
+        },
+        {
+          "style": "Cute",
+          "text": "Nanhe booties aur chota sa kurta, kitna pyara lag raha hai!"
+        }
+      ],
+      "imageUrl": "/sample-art/baby-dress.svg",
+      "category": "Hamari Nanhi Jaan",
+      "tags": [
+        "nanhi-jaan",
+        "tohfa",
+        "khubsoorat",
+        "pehli-yaad"
+      ],
+      "memoryDate": "2026-09-02",
+      "uploadDate": "2026-09-02T16:15:00.000Z",
+      "status": "published",
+      "isFavorite": true,
+      "orderIndex": 3,
+      "visualDetailsObserved": "Pastel baby suit mein saje nanhe hath paon aur khilkhilata chehra."
+    },
+    {
+      "id": "mem-4",
+      "title": "Mohabbat Ki Narm Si Aaghosh",
+      "caption": "Is nanhi si jaan ko pyar se lipta dekh kar dil mohabbat se bhar jata hai. Kaash waqt kuch dair ke liye tham jaye aur hum is pyare se lamhe ko hamesha mehsoos kar saken.",
+      "alternativeCaptions": [
+        {
+          "style": "Warmth",
+          "text": "Maa ki mamta aur baap ki duaoon ka saya har dam tumhare sath hai."
+        },
+        {
+          "style": "Poetic",
+          "text": "Narm resham jaisi choti ungliyan jab hamare hath ko thaamti hain."
+        },
+        {
+          "style": "Dua",
+          "text": "Allah pak hamesha apni hifazat aur noor mein qayam rakhe. Ameen."
+        }
+      ],
+      "imageUrl": "/sample-art/swaddled-baby.svg",
+      "category": "Pehli Tasveer",
+      "tags": [
+        "aaghosh",
+        "mamta",
+        "swaddle",
+        "barkat"
+      ],
+      "memoryDate": "2026-08-15",
+      "uploadDate": "2026-08-15T10:00:00.000Z",
+      "status": "published",
+      "isFavorite": false,
+      "orderIndex": 4,
+      "visualDetailsObserved": "Narm blanket mein swaddle kiya hua baby, aaraam de aalam mein."
+    }
+  ],
+  "timeline": [
+    {
+      "id": "time-1792088889486",
+      "title": "Hamari Zindagi ka sb se piyara din",
+      "description": "First",
+      "date": "2026-10-06",
+      "milestoneLabel": "",
+      "photoUrl": "",
+      "orderIndex": 1
+    }
+  ],
+  "blessings": [
+    {
+      "id": "bless-1",
+      "text": "Ya Allah, hamare baby ko sehat, khushiyan, nek naseeb aur kamyabi ata farma. Ameen.",
+      "author": "Mama Aur Papa Ki Dua",
+      "orderIndex": 1
+    },
+    {
+      "id": "bless-2",
+      "text": "Ya Allah, is nanhi si jaan ko har buri nazar aur har pareshani se mehfooz rakh. Ameen.",
+      "author": "Dadi Aur Dada Ki Dua",
+      "orderIndex": 2
+    },
+    {
+      "id": "bless-3",
+      "text": "Iski zindagi mohabbat, sukoon, ilm aur khushiyon se bhar de. Ameen.",
+      "author": "Nani Aur Nana Ki Dua",
+      "orderIndex": 3
+    },
+    {
+      "id": "bless-4",
+      "text": "Rabbi hab li minas saliheen — Aye mere Rab, mujhe nek aur saleh aulaad ata farma aur isko ankhon ki thandak bana. Ameen.",
+      "author": "Quranic Dua",
+      "orderIndex": 4
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Hamari Duniya - Baby Memories",
+  "short_name": "Hamari Duniya",
+  "description": "Hamari zindagi mein ek nanhi si jaan ki amad hui hai. Baby Memories & Roman Urdu Digital Album.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff5f7",
+  "theme_color": "#fff5f7",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/sample-art/hero-baby.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/sample-art/hero-baby.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

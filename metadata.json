@@ -1,0 +1,6 @@
+{
+  "name": "Hamari Duniya - Baby Memories",
+  "description": "A magical, elegant Roman Urdu digital memory book and gallery celebrating a newborn baby, with private owner dashboard, secure photo uploads, and AI-powered Roman Urdu captions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,165 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Playfair Display', Georgia, serif;
+    --font-script: 'Great Vibes', cursive;
+    --font-hand: 'Caveat', cursive;
+    --font-title: 'Cinzel Decorative', serif;
+    --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-heading);
+  }
+
+  .font-script {
+    font-family: var(--font-script);
+  }
+
+  .font-hand {
+    font-family: var(--font-hand);
+  }
+
+  .font-title {
+    font-family: var(--font-title);
+  }
+}
+
+/* Theme variables mapped for dynamic switching */
+body[data-theme='pink'] {
+  --theme-bg-gradient: linear-gradient(135deg, #fff1f2 0%, #fdf2f8 50%, #fef7ed 100%);
+  --theme-card-bg: rgba(255, 255, 255, 0.88);
+  --theme-primary: #f43f5e;
+  --theme-primary-light: #fbcfe8;
+  --theme-accent: #f59e0b;
+}
+
+body[data-theme='blue'] {
+  --theme-bg-gradient: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #faf5ff 100%);
+  --theme-card-bg: rgba(255, 255, 255, 0.9);
+  --theme-primary: #0284c7;
+  --theme-primary-light: #bae6fd;
+  --theme-accent: #f59e0b;
+}
+
+body[data-theme='lavender'] {
+  --theme-bg-gradient: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 50%, #fff1f2 100%);
+  --theme-card-bg: rgba(255, 255, 255, 0.9);
+  --theme-primary: #9333ea;
+  --theme-primary-light: #e9d5ff;
+  --theme-accent: #fbbf24;
+}
+
+body[data-theme='cream'] {
+  --theme-bg-gradient: linear-gradient(135deg, #fffbeb 0%, #fef3c7 40%, #fdf2f8 100%);
+  --theme-card-bg: rgba(255, 255, 255, 0.92);
+  --theme-primary: #d97706;
+  --theme-primary-light: #fde68a;
+  --theme-accent: #e11d48;
+}
+
+body[data-theme='mint'] {
+  --theme-bg-gradient: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 50%, #fdf2f8 100%);
+  --theme-card-bg: rgba(255, 255, 255, 0.9);
+  --theme-primary: #059669;
+  --theme-primary-light: #a7f3d0;
+  --theme-accent: #d97706;
+}
+
+/* Animations */
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1.5deg);
+  }
+}
+
+@keyframes floatReverse {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(7px) rotate(-1.5deg);
+  }
+}
+
+@keyframes sparklePulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 0.95;
+    transform: scale(1.15);
+  }
+}
+
+@keyframes softGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 10px rgba(251, 191, 36, 0.35));
+  }
+  50% {
+    filter: drop-shadow(0 0 25px rgba(251, 191, 36, 0.65));
+  }
+}
+
+.animate-float-gentle {
+  animation: floatGentle 5s ease-in-out infinite;
+}
+
+.animate-float-reverse {
+  animation: floatReverse 6s ease-in-out infinite;
+}
+
+.animate-sparkle {
+  animation: sparklePulse 3s ease-in-out infinite;
+}
+
+.animate-soft-glow {
+  animation: softGlow 4s ease-in-out infinite;
+}
+
+/* Respect user's reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.reduced-motion *,
+.reduced-motion ::before,
+.reduced-motion ::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0 16px 36px -10px rgba(244, 114, 182, 0.12), 0 4px 12px -2px rgba(251, 191, 36, 0.08);
+}
+
+.gold-border {
+  border: 1.5px solid rgba(245, 158, 11, 0.35);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 50%, #f59e0b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

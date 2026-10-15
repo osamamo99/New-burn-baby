@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff5f5" />
+      <stop offset="50%" stop-color="#fdf2f8" />
+      <stop offset="100%" stop-color="#f3e8ff" />
+    </linearGradient>
+    <linearGradient id="moonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#fde047" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+
+  <!-- Stars & Sparkles -->
+  <g fill="#fde047" opacity="0.7">
+    <circle cx="120" cy="100" r="4" />
+    <circle cx="240" cy="70" r="3" />
+    <circle cx="680" cy="140" r="5" />
+    <circle cx="720" cy="220" r="3" />
+    <circle cx="160" cy="420" r="3.5" />
+    <circle cx="650" cy="450" r="4" />
+    <!-- 4-point stars -->
+    <path d="M180,180 Q180,195 195,195 Q180,195 180,210 Q180,195 165,195 Q180,195 180,180" fill="#fbcfe8" />
+    <path d="M600,100 Q600,115 615,115 Q600,115 600,130 Q600,115 585,115 Q600,115 600,100" fill="#fbcfe8" />
+  </g>
+
+  <!-- Fluffy Cloud -->
+  <g fill="#ffffff" opacity="0.9" filter="drop-shadow(0px 8px 16px rgba(244, 114, 182, 0.15))">
+    <path d="M220,430 C220,380 270,360 320,370 C350,330 420,320 460,350 C500,330 560,340 580,380 C620,390 640,430 620,460 C600,490 260,490 220,430 Z" />
+  </g>
+
+  <!-- Glowing Crescent Moon -->
+  <path d="M420,130 C330,130 260,200 260,290 C260,380 330,450 420,450 C370,410 340,350 340,290 C340,230 370,170 420,130 Z" fill="url(#moonGrad)" filter="url(#glow)" />
+
+  <!-- Sleeping Baby on Moon -->
+  <!-- Blanket -->
+  <path d="M340,320 C340,280 430,270 470,310 C490,330 480,380 430,390 C380,400 340,360 340,320 Z" fill="#bae6fd" />
+  <!-- Baby Head -->
+  <circle cx="370" cy="310" r="30" fill="#fed7aa" />
+  <!-- Cheeks -->
+  <circle cx="360" cy="318" r="6" fill="#f472b6" opacity="0.5" />
+  <!-- Sleeping Eye curve -->
+  <path d="M356,310 Q362,316 368,310" stroke="#78350f" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <!-- Baby Cap with Pom-pom -->
+  <path d="M350,295 C355,270 380,265 395,285 C395,295 380,305 350,295 Z" fill="#fbcfe8" />
+  <circle cx="400" cy="280" r="7" fill="#ffffff" />
+  <!-- Cute Baby Hand -->
+  <circle cx="395" cy="335" r="9" fill="#fed7aa" />
+
+  <!-- Heart floating above -->
+  <path d="M480,230 C480,215 460,210 450,225 C440,210 420,215 420,230 C420,250 450,270 450,270 C450,270 480,250 480,230 Z" fill="#f43f5e" opacity="0.8" />
+
+  <text x="400" y="535" font-family="'Caveat', cursive, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#9d174d">
+    Neend Ke Haseen Lamhe ✨
+  </text>
+  <text x="400" y="565" font-family="'Outfit', sans-serif" font-size="14" text-anchor="middle" fill="#64748b">
+    Illustrated Baby Art • Hamari Nanhi Jaan
+  </text>
+</svg>
